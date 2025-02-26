@@ -1,0 +1,167 @@
+/* body{
+    background-color:rgb(15, 16, 20);
+    font-family: "Inter", serif;
+}
+.top_container{
+    padding-left: 40px;
+}
+.header{
+    padding: 32px,0px,8px;
+}
+.image{
+    float: left;
+    padding-left: 90px;
+    
+}
+.image img{
+    width: 100px;
+}
+.language_button{
+    float: right;
+    padding-right: 90px;
+}
+.language-selector {
+    width: 200px;
+    padding: 12px,12px,12px,4px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+.web_container{
+    display: flex;
+
+}
+.first_container{
+    flex: 1;
+}
+.first_container >h1{
+    padding-left: 40px; 
+    padding-top: 40px;
+    font-size: 32px;
+    color: #E1E6F0;
+    
+
+}
+.second_container{
+    flex: 1.5;
+    padding-left: 8px;
+    margin: 0px 60px 0px 68px;
+   
+}
+.pricing_content{
+    padding: 10px 5px 0px 5px;
+}
+.pricing_content tbody td{
+    font-size: 16px;
+    color: #E1E6F0;
+    
+
+}
+.pricing_content tbody td>small{
+    font-size: 14px;
+    font-family: "Inter", serif;
+    
+} 
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.language-selector {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.language-selector select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    width: 40%;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.right-section {
+    width: 55%;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #444444;
+}
+
+td {
+    background-color: #333333;
+}
+
+.pricing {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.checkmark {
+    text-align: center;
+}
+
+.super {
+    background-color: #ffcc00;
+    color: #000000;
+}
+
+.premium {
+    background-color: #666666;
+}
